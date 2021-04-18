@@ -1,0 +1,62 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    color: black;
+}
+#logo{
+    margin-left: 13%;
+}
+h1{
+    margin-left: 13%;
+    margin-right: 177px;
+    margin-bottom: 1px;
+    font-size: 16px;
+    margin-top: 12px;
+    font-family:  sans-serif;
+    font-weight: 500;
+    letter-spacing: 3px;
+    padding: 12px 0px 12px 55px;
+    color: white;
+    background-color: #999999;
+}
+.Landing-iMage{
+    margin-left: 13%;
+}
+.container{
+   display: flex;
+   flex-direction: row;
+   margin-right: 1px;
+}
+.country-flag{
+    width: 15px;
+    margin-top: 39px;
+    margin-right:20px ;
+    margin-left: -30px;
+}
+.container-for-flags{
+    margin-left: 1px;
+    display: grid;
+    gap: 1px;
+    grid-template-columns:185px 185px 185px;
+    grid-template-rows:repeat(6, 80px);
+}
+
+.bg-color{
+    font-size: 10px;
+    font-weight: 200;
+    letter-spacing: 2px;
+    text-align: center;
+    color: black;
+    background-color: #F3F3F3;
+    cursor:pointer;
+    pointer-events:auto;     
+}
+.bg-color:hover{
+    background-color: #D6D6D6!important;
+}
+h6{
+    margin-left: 83%;
+    font-style: 12px;
+}
+
